@@ -1,0 +1,118 @@
+:root {
+    --title-color: #000000;
+    --home-background-color: #ffffff;
+    --card-color: #9b9898;
+    --card-hover-color: #10141f;
+    --sun-color: #FCE570;
+    --mercury-color: #B7B8B9;
+    --venus-color: #FFC649;
+    --earth-color: rgb(54, 133, 54);
+    --mars-color: #a82932;
+    --jupiter-color: #7a7173;
+    --saturn-color: #cf775c;
+    --uranus-color: #91c5cc;
+    --neptune-color: #177496;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: var(--title-color);
+    background: var(--home-background-color);
+    padding: 0 40px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 4em;
+    letter-spacing: -2px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 250px;
+    background-color: var(--home-background-color);
+    gap: 40px;
+}
+
+div {
+    color: var(--home-background-color);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.planet {
+    background-color: var(--card-color);
+    transition: all 0.12s ease-in-out;
+}
+
+.planet:hover {
+    background-color: var(--card-hover-color);
+}
+
+.planet.sun {
+    grid-column: 1/3;
+    grid-row: 1/3;
+
+}
+
+.circle.sun {
+    width: 55%;
+    padding-bottom: 60%;
+    border-radius: 50%;
+    background-color: var(--sun-color);
+    margin-bottom: 1%;
+}
+
+.circle {
+    width: 50%;
+    padding-bottom: 50%;
+    border-radius: 50%;
+    background-color: var(--title-color);
+    margin-bottom: 3%;
+}
+
+.circle.mercury {
+    background-color: var(--mercury-color);
+}
+.circle.venus {
+    background-color: var(--venus-color);
+}
+.circle.earth {
+    background-color: var(--earth-color);
+}
+.circle.mars {
+    background-color: var(--mars-color);
+}
+.circle.jupiter {
+    background-color: var(--jupiter-color);
+}
+.circle.saturn {
+    background-color: var(--saturn-color);
+}
+.circle.uranus {
+    background-color: var(--uranus-color);
+}
+.circle.neptune {
+    background-color: var(--neptune-color);
+}
+
+.name {
+    margin-top: 10%;
+    margin-bottom: 0;
+    font-size: x-large;
+}
+
+h2 {
+    margin-top: 6%;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top:  2%;
+    font-size: 100%;
+}
