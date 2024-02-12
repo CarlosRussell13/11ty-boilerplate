@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
 
       <div class="circle ${name}"></div>
 
-      <h2 class="name">${nameofPlanet}</h2>
+      <h2 class="name">${NameofPlanet}</h2>
 
       <p>${AU}</p>
 
