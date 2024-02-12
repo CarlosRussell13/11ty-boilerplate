@@ -59,8 +59,8 @@ div {
 
 }
 
-.circle.sun {
-    width: 55%;
+.sun {
+    width: 65%;
     padding-bottom: 60%;
     border-radius: 50%;
     background-color: var(--sun-color);
