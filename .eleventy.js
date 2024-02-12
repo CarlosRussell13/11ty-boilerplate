@@ -3,9 +3,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("styles");
     
-    eleventyConfig.addShortcode("planet", function(name, nameofplanet, AU) {
+    eleventyConfig.addShortcode("Planets", function(name, nameofplanet, AU) {
 
-      return `<div class="planets">
+      return `<div class="planet">
 
       <div class="circle ${nameofplanet}"></div>
 
