@@ -75,10 +75,10 @@ div {
     margin-bottom: 3%;
 }
 
-.circle.mercury {
+.mercury.circle {
     background-color: var(--mercury-color);
 }
-.circle.venus {
+.venus.circle {
     background-color: var(--venus-color);
 }
 .circle.earth {
