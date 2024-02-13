@@ -60,8 +60,8 @@ div {
 }
 
 .sun {
-    width: 65%;
-    padding-bottom: 60%;
+    width: 50%;
+    padding-bottom: 50%;
     border-radius: 50%;
     background-color: var(--sun-color);
     margin-bottom: 1%;
