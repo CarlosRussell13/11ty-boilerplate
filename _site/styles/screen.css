@@ -75,7 +75,7 @@ div {
     margin-bottom: 3%;
 }
 
-.mercury {
+.mercury.circle {
     background-color: var(--mercury-color);
 }
 .venus.circle {
