@@ -3,12 +3,86 @@
 layout: layout.liquid
 title: Planetary Playing Cards
 ---
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary Playing Cards</title>
+    <link rel="stylesheet" href="/styles/screen.css">
+</head>
 
 
 <h1>Planetary <strong>Playing Cards</strong></h1>
 
 <main>
+<body>
+
+    <h1>Planetary Playing Cards</h1>
+
+    <main>
+
+        <div class="Planet sun">
+            <div class="Sun "></div>
+            <h2>Sun</h2>
+            <p>G2V</p>
+        </div>
+
+        <div class="Planet">
+            <div class="Mercury Circle "></div>
+            <h2 class="nameofplanet">Mercury</h2>
+            <p>0.39 AU</p>
+        </div>
+
+        <div class="Planet">
+            <div class="Venus Circle "></div>
+            <h2 class="nameofplanet">Venus</h2>
+            <p>0.72 AU</p>
+        </div>
+
+        <div class="Planet">
+            <div class="Earth Circle "></div>
+            <h2 class="nameofplanet">Earth</h2>
+            <p>1.00 AU</p>
+        </div>
+
+        <div class="Planet">
+            <div class="Mars Circle "></div>
+            <h2 class="nameofplanet">Mars</h2>
+            <p>1.52 AU</p>
+        </div>
+
+        <div class="Planet">
+            <div class="Jupiter Circle"></div>
+            <h2 class="nameofplanet">Jupiter</h2>
+            <p>5.20 AU</p>
+        </div>
+
+        <div class="Planet">
+            <div class="Saturn Circle"></div>
+            <h2 class="nameofplanet">Saturn</h2>
+            <p>9.54 AU</p>
+        </div>
+
+        <div class="Planet">
+            <div class="Uranus Circle "></div>
+            <h2 class="nameofplanet">Uranus</h2>
+            <p>19.22 AU</p>
+        </div>
+
+        <div class="Planets">
+            <div class="Neptune Circle "></div>
+            <h2 class="Name">Neptune</h2>
+            <p>30.06 AU</p>
+        </div>
+
+    
+
+</body>
+
+
+
+
 	<div class="Planet sun">
         <div class="sun"></div>
         <h2>Sun</h2>
@@ -22,5 +96,8 @@ title: Planetary Playing Cards
     {% Planets 'Saturn' 'Saturn' '9.54 AU' %}
     {% Planets 'Uranus' 'Uranus' '19.22 AU' %}
     {% Planets 'Neptune' 'Neptune' '30.06 AU' %}
-</main>
+    </main>
 
+</body>
+
+</html>
