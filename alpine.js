@@ -9,5 +9,4 @@ Alpine.data('NameGenerator', () => ({
         this.randomName = this.names[randomName];
     }
 }));
-
 Alpine.start();
