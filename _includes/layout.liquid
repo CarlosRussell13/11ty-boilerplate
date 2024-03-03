@@ -1,18 +1,24 @@
 ---
-title: 11ty Boilerplate
+title: RANDOMIZED NAME GENERATOR
 ---
-
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+  <title>{ Randomized Name Generator }</title>
   <link rel="stylesheet" href="/styles/screen.css">
+  <script type="module" src="alpine.js" defer></script>
 </head>
-<body>
 
-  {{content}}
+<body>
+    <div x-data="NameGenerator">
+      <h1>Randomized Name Generator</h1>
+      <button @click="generateName">Generate Randomized Name</button>
+      <h1 x-text="randomName"></h1>
+    </div>
 </body>
 </html>
